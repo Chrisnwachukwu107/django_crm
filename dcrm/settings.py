@@ -76,14 +76,15 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'elderco',
-        'USER': 'root',
-        'PASSWORD': open("C:\\Users\\user\\Desktop\\backend-projects\\django_crm\\db_password", "r").read(),
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'hihrVB8mhWtvetghRD6p',
+        'HOST': 'containers-us-west-160.railway.app',
+        'PORT': '6750',
     }
 }
+
 
 
 # Password validation
