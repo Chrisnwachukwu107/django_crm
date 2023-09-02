@@ -30,3 +30,15 @@
     <li>Login to admin interface</li>
     <li>Delete users account</li>
 </ul>
+
+<h3>Dependencies:</h3>
+<ul>
+    <li>asgiref==3.7.2</li>
+    <li>Django==4.2.4</li>
+    <li>packaging==23.1</li>
+    <li>protobuf==4.21.12</li>
+    <li>psycopg2-binary==2.9.7</li>
+    <li>sqlparse==0.4.4</li>
+    <li>tzdata==2023.3</li>
+    <li>whitenoise==6.5.0</li>
+</ul>
