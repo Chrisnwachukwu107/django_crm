@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "puddle/wsgi.py",
+        "src": "dcrm/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
       },
@@ -21,7 +21,7 @@
       },
       {
         "src": "/(.*)",
-        "dest": "puddle/wsgi.py"
+        "dest": "dcrm/wsgi.py"
       }
     ]
   }
