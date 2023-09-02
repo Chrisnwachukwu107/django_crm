@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-cyqb0-_45o(z%+9)=5pah4y!ay=_151b99%7d!w=+5y0lvjtjl'
+SECRET_KEY = open("C:\\Users\\user\\Desktop\\backend-projects\\django_crm\\dj_secret_key", "r").read()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'website'
+    'website',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'elderco',
         'USER': 'root',
-        'PASSWORD': open("C:\\Users\\user\\desktop\\fsdevroadmap\\backend\\frameworks\\django\\dcrm\\dcrm\\db_password", "r").read(),
+        'PASSWORD': open("C:\\Users\\user\\Desktop\\backend-projects\\django_crm\\db_password", "r").read(),
         'HOST': 'localhost',
         'PORT': '3306',
     }

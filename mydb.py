@@ -3,7 +3,7 @@ import mysql.connector
 dataBase = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
-    passwd = open("C:\\Users\\user\\desktop\\fsdevroadmap\\backend\\frameworks\\django\\dcrm\\dcrm\\db_password", "r").read()
+    passwd = open("C:\\Users\\user\\Desktop\\backend-projects\\django_crm\\db_password", "r").read()
 
 )
 
