@@ -2,4 +2,4 @@
 
 <h4>Author: Christian Nwachukwu</h4>
 
-<p>This is a CRM(Customer Relationship Manager) application built using HTML, CSS, Bootstrap, Python, Django and MySQL</p>
+<p>This is a <b>CRM</b>(Customer Relationship Manager) application built using HTML, CSS, Bootstrap, Python, Django and PostgreSQL</p>
